@@ -1,0 +1,36 @@
+# Keil μVision 构建产物
+*.bak
+*.Bak
+*.M51
+*.m51
+*.LST
+*.lst
+*.OBJ
+*.obj
+*.plg
+*.lnp
+*.uvgui.*
+*.uvgui_*
+*.__i
+*.sct
+*.dep
+*_build/
+
+# Keil 编译输出（保留 HEX）
+程序源码/The_Project
+程序源码/*.build_log.htm
+
+# Proteus 备份与临时文件
+*.pdsbak
+*.workspace
+Backup Of *
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 源文件备份
+*.orig
